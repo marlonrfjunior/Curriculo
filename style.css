@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #0464b3;
+    margin: 0px;
+    position: none;
+    width: 100%;
+    color: #fff;
+}
+
+nav {
+    padding: 20px;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.social_midia_Btn {
+    border-radius: 6px;
+    background: #0464b3;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    width: 30%;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.SocialButtons {
+    display: block;
+}
+
+#Home {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

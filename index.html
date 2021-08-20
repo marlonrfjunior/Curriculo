@@ -1,190 +1,231 @@
 <!DOCTYPE html>
 <html lang="portuguese">
-<head>
-  <title>Marlon Junior</title>
-  <meta charset="utf-8">
-  <meta name="description" content="Curriculo Marlon">
-  <meta name="author" content="Marlon Junior">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  
-  </head>
-<body >
-    <header  class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar bg-primary navbar sticky-top">
-        <a class="navbar-brand mr-0 mr-md-2"  ><img src="./fotohead.png" height="30" width="30" alt="código">
-        </a>
-        <div  class="navbar-nav-scroll">
-          <ul class="navbar-nav bd-navbar-nav flex-row">
-            <li class="nav-item">
-              <a style="font-family:Verdana, Geneva, Tahoma, sans-serif" class="navbar-brand"class="nav-link active" href="#Home" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
-            </li>
-            <li class="nav-item">
-              <a style="font-family:Verdana, Geneva, Tahoma, sans-serif" class="navbar-brand"class="nav-link active" href="#skills" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Skill's</a>
-            </li>
-            <li class="nav-item">
-              <a style="font-family:Verdana, Geneva, Tahoma, sans-serif" class="navbar-brand"class="nav-link " href="#Contacts" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Contacts</a>
-            </li>
-          </ul>
-        </div>
-      
-        <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-        </ul>
-      
-        <a class="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3 navbar-brand" href="">Marlon Rezende Ferreira Junior</a>
-      </header>
-<div id="Home"class="container" style="margin-top:30px">
-  <div class="row">
-    <div class="col-sm-6">
-      <h2> Marlon Junior</h2>
-      <h6>Perfil</h6>
-      <div><img src="./Face_img.jpg" class="rounded" height="437" width="350"alt="Foto Perfil"></div>
-      <p>Solteiro , 22 anos</p>
-      <h3>Mais informações</h3>
-      <p>Redes Sociais</p>
-      <ul class="nav nav-pills flex-column">
-        <li class="nav-item">
-          <a  target="_blank" class="nav-link active" href="https://www.linkedin.com/in/marlonrfjunior/">LinkedIn</a>
-        </li>
-        <li><p> </p></li>
-        <li class="nav-item">
-        <a  target="_blank" class="nav-link active" href="http://api.whatsapp.com/send?1=pt_BR&phone=5534984127589">Whatsapp</a>
-         </li>
-         <li><p> </p></li>
-        </ul>
-      <hr class="d-sm-none">
-    </div>
-    <div class="col-sm-6">
-      <h3>Resumo</h3>
-      <h5>29 Jan, 2020</h5>
-      <p><b>Geral</b></p>
-      <p>Estou em processo de formação acadêmica na área de TI, com conhecimentos  em Java, Selenium, PL/SQL, ES5 e CSS.<br> 
-            Trabalho atualmente como CJ Programador Junior, desenvolvendo e aprimorando aplicações.</p>
-      <br>
-      <p><b>Habilidades</b></p>
-      <p> Tenho conhecimento nível básico em  Linguagem de programação Java, C, Javascript, PL/SQL , Selenium, HTML, CSS e PowerBI, e  intermediário do pacote office (Excel, PowerPoint e Word). Estou sempre interessado em aprender com as pessoas a minha volta, estando sempre aberto a novas idéias e procuro estar sempre atualizado a respeito de inovações e tecnologias.
-            </p>
-      <p><b>Atividades Extracurriculares</b></p>
-      <p>Durante meu tempo livre, costumo treinar Futebol Americano. O esporte me mantém em forma, proporciona capacidade de superar obstáculos que desafiam os meus limites físicos e pscicológicos e fortalece a minha habilidade de trabalhar em equipe. </p>
 
-    </div>
-  </div>
-</div>
-<nav id="skills" class="navbar navbar-expand-sm bg-dark navbar-dark text-center">
+<head>
+    <title>Marlon Junior</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Curriculo Marlon">
+    <meta name="author" content="Marlon Junior">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="./style.css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="./images/fotohead.png" height="30" width="30" alt="código">
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#skills">Skill's</a>
+            <a href="#Contacts">Contacts</a>
+        </nav>
+
+    </header>
+    <main>
+        <article id="Home" class="pesrsonalInfo">
+            <table>
+                <tr>
+                    <td>
+
+                        <div><img src="./images/perfil.jpeg" class="rounded" height="430" width="324" alt="Foto Perfil"></div>
+                        <h2> Marlon Rezende F. Junior</h2>
+                        <h4>Perfil</h4>
+                        <p>Solteiro , 22 anos</p>
+                        <h3>Mais informações</h3>
+                        <p>Redes Sociais</p>
+                        <section class="SocialButtons">
+                            <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5534984127589">
+                                <button class="social_midia_Btn"><i class="fa fa-whatsapp"></i>   Whatsapp</button>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/marlonrfjunior/">
+                                <button class="social_midia_Btn"><i class="fa fa-linkedin"></i>   LinkedIn</button>
+                            </a>
+
+                            <a href="https://github.com/marlonrfjunior">
+                                <button class="social_midia_Btn"><i class="fa fa-github"></i>   GitHub</button>
+                            </a>
+                        </section>
+                    </td>
+                    <td>
+
+                    </td>
+                    <td>
+                        <h3>Resumo</h3>
+                        <h5>29 Jan, 2020</h5>
+                        <p><b>Geral</b></p>
+                        <p>Estou em processo de formação acadêmica na área de TI, com conhecimentos em Java, Selenium, PL/SQL, ES5 e CSS.
+                            <br> Trabalho atualmente como CJ Programador Junior, desenvolvendo e aprimorando aplicações.
+                        </p>
+                        <br>
+                        <p><b>Habilidades</b></p>
+                        <p> Tenho conhecimento nível básico em Linguagem de programação Java, C, Javascript, PL/SQL , Selenium, HTML, CSS e PowerBI, e intermediário do pacote office (Excel, PowerPoint e Word). Estou sempre interessado em aprender com as pessoas
+                            a minha volta, estando sempre aberto a novas idéias e procuro estar sempre atualizado a respeito de inovações e tecnologias.
+                        </p>
+                        <p><b>Atividades Extracurriculares</b></p>
+                        <p>Durante meu tempo livre, costumo treinar Futebol Americano. O esporte me mantém em forma, proporciona capacidade de superar obstáculos que desafiam os meus limites físicos e pscicológicos e fortalece a minha habilidade de trabalhar
+                            em equipe.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </article>
+    </main class="container" style="margin-top:30px">
+
+    <nav id="skills" class="navbar navbar-expand-sm bg-dark navbar-dark text-center">
         <h5 class="text-white h4 text-center">Experiência</h5>
 
-      </nav>
-</div>
-     <div class="container">
-         <div class="row">                      
-        <div class="col-sm-4"algin="center">
-           <div class="chartjs-wrapper">
-               <iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
-                   <canvas id="chartjs-3" class="chartjs" width="15060" height="15530" style="display: block; width: 1530px; height: 1265px;"></canvas>
-                   <script>    
-                       new Chart(document.getElementById("chartjs-3"), {
-                           "type":"radar",
-                           "data":{"labels":["ES6","Linguagem C","JavaScript","Bootstrap","Selenium","CSS","PL/SQL","Java"],
-                                   "datasets":[
-                                           {"label":"Conhecimento",
-                                           "data":[60,60,50,50,70,60,70,70],
-                                           "fill":true,
-                                           "backgroundColor":"rgba(20, 70, 230, 0.2)",
-                                           "borderColor":"rgb(20, 70, 230)",
-                                           "pointBackgroundColor":"rgb(20, 70, 230)",
-                                           "pointBorderColor":"#fff",
-                                           "pointHoverBackgroundColor":"#fff",
-                                           "pointHoverBorderColor":"rgb(20, 70, 230)"},
-                                           {"label":"",    
-                                           "data":[,0,0,0,0,0,0,,100],
-                                           "fill":true,
-                                           "backgroundColor":"rgba(255, 255, 255, 0.2)",
-                                           "borderColor":"rgb(255, 255, 255)",
-                                           "pointBackgroundColor":"rgb(255, 255, 255)",
-                                           "pointBorderColor":"#fffff",
-                                           "pointHoverBackgroundColor":"#fffff",
-                                           "pointHoverBorderColor":"rgb(255, 255, 255)","pointRadius":"0"}
-                                           ]},
-                           "options":{"title":{ "display": true,"text":"Características Educacionais"},"elements":{"line":{"tension":0,"borderWidth":3}}}});
+    </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4" algin="center">
+                <div class="chartjs-wrapper">
+                    <iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
+                    <canvas id="chartjs-3" class="chartjs" width="15060" height="15530" style="display: block; width: 1530px; height: 1265px;"></canvas>
+                    <script>
+                        new Chart(document.getElementById("chartjs-3"), {
+                            "type": "radar",
+                            "data": {
+                                "labels": ["ES6", "Linguagem C", "JavaScript", "Bootstrap", "Selenium", "CSS", "PL/SQL", "Java"],
+                                "datasets": [{
+                                    "label": "Conhecimento",
+                                    "data": [60, 60, 50, 50, 70, 60, 70, 70],
+                                    "fill": true,
+                                    "backgroundColor": "rgba(20, 70, 230, 0.2)",
+                                    "borderColor": "rgb(20, 70, 230)",
+                                    "pointBackgroundColor": "rgb(20, 70, 230)",
+                                    "pointBorderColor": "#fff",
+                                    "pointHoverBackgroundColor": "#fff",
+                                    "pointHoverBorderColor": "rgb(20, 70, 230)"
+                                }, {
+                                    "label": "",
+                                    "data": [, 0, 0, 0, 0, 0, 0, , 100],
+                                    "fill": true,
+                                    "backgroundColor": "rgba(255, 255, 255, 0.2)",
+                                    "borderColor": "rgb(255, 255, 255)",
+                                    "pointBackgroundColor": "rgb(255, 255, 255)",
+                                    "pointBorderColor": "#fffff",
+                                    "pointHoverBackgroundColor": "#fffff",
+                                    "pointHoverBorderColor": "rgb(255, 255, 255)",
+                                    "pointRadius": "0"
+                                }]
+                            },
+                            "options": {
+                                "title": {
+                                    "display": true,
+                                    "text": "Características Educacionais"
+                                },
+                                "elements": {
+                                    "line": {
+                                        "tension": 0,
+                                        "borderWidth": 3
+                                    }
+                                }
+                            }
+                        });
                     </script>
-            
+
+                </div>
+            </div>
+            <div class="col-sm-4" algin="center">
+                <div class="chartjs-wrapper">
+                    <iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
+                    <canvas id="chartjs-4" class="chartjs" width="15060" height="15530" style="display: block; width: 1530px; height: 1265px;"></canvas>
+                    <script>
+                        new Chart(document.getElementById("chartjs-4"), {
+                            "type": "radar",
+                            "data": {
+                                "labels": ["Organização", "Inovação", "Estratégia", "Resiliência", "Aprendizagem", "Dinamismo"],
+                                "datasets": [{
+                                    "label": "Características Comportamentais",
+                                    "data": [85, 65, 65, 80, 85, 70],
+                                    "fill": true,
+                                    "backgroundColor": "rgba(20, 70, 230, 0.2)",
+                                    "borderColor": "rgb(20, 70, 230)",
+                                    "pointBackgroundColor": "rgb(20, 70, 230)",
+                                    "pointBorderColor": "#fff",
+                                    "pointHoverBackgroundColor": "#fff",
+                                    "pointHoverBorderColor": "rgb(20, 70, 230)"
+                                }, {
+                                    "label": "",
+                                    "data": [, 0, 0, 0, 0, 0, 0, 100],
+                                    "fill": true,
+                                    "backgroundColor": "rgba(255, 255, 255, 0.2)",
+                                    "borderColor": "rgb(255, 255, 255)",
+                                    "pointBackgroundColor": "rgb(255, 255, 255)",
+                                    "pointBorderColor": "#fffff",
+                                    "pointHoverBackgroundColor": "#fffff",
+                                    "pointHoverBorderColor": "rgb(255, 255, 255)",
+                                    "pointRadius": "0"
+                                }]
+                            },
+                            "options": {
+                                "title": {
+                                    "display": true,
+                                    "text": "Características Profissionais"
+                                },
+                                "elements": {
+                                    "line": {
+                                        "tension": 0,
+                                        "borderWidth": 3
+                                    }
+                                }
+                            }
+                        });
+                    </script>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div>
+                    <h4>Experiência profissional</h4><br>
+                    <h6>CJ Programador Jr</h6>
+                    <b>
+            <p>Everis
+          </b><br><i>(an NTT DATA Company)</i> - 2020 até o momento <br> • Desenvolviomento, aprimoramento e sustentação de aplicações em Linguagem Java.
+                    <br>
+
+
+                    <h6>Assistente de BPO</h6>
+                    <b>
+            <p>Algar Tecnologia e Consultoria S/A
+          </b><br><i>(Empresa de Call Center)</i> - 2019 a 2020<br> • Desenvolviomento, aprimoramento e sustentação de visões Dashboard de indicadores de qualidade da operação .
+                    <br> • Manutenções e sustentação de ferramentas de controle operacional.
+
+
+                    <h6>Control Desk</h6>
+                    <b>
+            <p>Algar Tecnologia e Consultoria S/A
+          </b><br><i>(Empresa de Call Center)</i> - 2018 a 2019 <br> • Análise e interpretação de indicadores e desvios de performance, com o objetivo de planejar e executar intervenções estratégicas operacionais.
+                    <br> • Manutenções e aprimoramentos em visões Dashboard para auxílio na tomada de decisões e acompanhamento de indicadores da operação.
+
+
+                    <h6>Vendedor</h6>
+                    <b>RVW Materiais de Construção Ltda</b><br><i>(Empresa de Comercio Varejista)</i> - 2017 a 2018 <br> • Atendimento ao cliente para venda e revenda de produtos, estratégias de marketing voltadas à organização.
+                    </p>
+                </div>
+                <div>
+                    <h4>Formação acadêmica</h4>
+                    <h6>Graduação Sistema de Informação</h6>
+                    <b>
+            <p>Faculdade Pitagoras
+          </b><br> 2018 até o momento - Cursando 4º Período </p>
+                    <h6>Graduação de Engenharia Civil</h6>
+                    <b>
+            <p>Faculdade Estácio de Sá
+          </b><br> 2017 a 2018 - Incompleto 2º Período </p>
+
+                </div>
             </div>
         </div>
-        <div class="col-sm-4"algin="center">
-           <div class="chartjs-wrapper">
-               <iframe class="chartjs-hidden-iframe" tabindex="-1" style="display: block; overflow: hidden; border: 0px; margin: 0px; top: 0px; left: 0px; bottom: 0px; right: 0px; height: 100%; width: 100%; position: absolute; pointer-events: none; z-index: -1;"></iframe>
-                   <canvas id="chartjs-4" class="chartjs" width="15060" height="15530" style="display: block; width: 1530px; height: 1265px;"></canvas>
-                   <script>    
-                       new Chart(document.getElementById("chartjs-4"), {
-                           "type":"radar",
-                           "data":{"labels":["Organização","Inovação","Estratégia","Resiliência","Aprendizagem","Dinamismo"],
-                                   "datasets":[
-                                           {"label":"Características Comportamentais",
-                                           "data":[85,65,65,80,85,70],
-                                           "fill":true,
-                                           "backgroundColor":"rgba(20, 70, 230, 0.2)",
-                                           "borderColor":"rgb(20, 70, 230)",
-                                           "pointBackgroundColor":"rgb(20, 70, 230)",
-                                           "pointBorderColor":"#fff",
-                                           "pointHoverBackgroundColor":"#fff",
-                                           "pointHoverBorderColor":"rgb(20, 70, 230)"},
-                                           {"label":"",    
-                                           "data":[,0,0,0,0,0,0,100],
-                                           "fill":true,
-                                           "backgroundColor":"rgba(255, 255, 255, 0.2)",
-                                           "borderColor":"rgb(255, 255, 255)",
-                                           "pointBackgroundColor":"rgb(255, 255, 255)",
-                                           "pointBorderColor":"#fffff",
-                                           "pointHoverBackgroundColor":"#fffff",
-                                           "pointHoverBorderColor":"rgb(255, 255, 255)","pointRadius":"0"}
-                                           ]},
-                           "options":{"title":{ "display": true,"text":"Características Profissionais"},"elements":{"line":{"tension":0,"borderWidth":3}}}});
-                    </script>
-            
-            </div>
-             </div>
-                  <div class="col-sm-4">        
-                      <div>
-                        <h4>Experiência profissional</h4><br>
-                        <h6>CJ Programador Jr</h6>
-                        <b><p>Everis</b><br><i>(an NTT DATA Company)</i> - 2020  até o momento <br>
-                          • Desenvolviomento, aprimoramento e sustentação de aplicações em Linguagem Java.
-                         <br> 
-
-
-                        <h6>Assistente de BPO</h6>
-                        <b><p>Algar Tecnologia e Consultoria S/A</b><br><i>(Empresa de Call Center)</i> - 2019  a 2020<br>
-                          • Desenvolviomento, aprimoramento e sustentação de visões Dashboard de indicadores de qualidade da operação .
-                         <br> • Manutenções e sustentação de ferramentas de controle operacional.
-
-
-                        <h6>Control Desk</h6>
-                        <b><p>Algar Tecnologia e Consultoria S/A</b><br><i>(Empresa de Call Center)</i> - 2018  a 2019 <br>
-                          • Análise e interpretação de indicadores e desvios de performance, com o objetivo de planejar e executar intervenções estratégicas operacionais.
-                         <br> • Manutenções e aprimoramentos em visões Dashboard para auxílio na tomada de decisões e acompanhamento de indicadores da operação.
-
-
-                        <h6>Vendedor</h6>
-                        <b>RVW Materiais de Construção Ltda</b><br><i>(Empresa de Comercio Varejista)</i> - 2017 a 2018 <br>
-                          • Atendimento ao cliente para venda e revenda de produtos, estratégias de marketing voltadas à organização.</p>
-                      </div>
-                      <div>
-                        <h4>Formação acadêmica</h4>
-                        <h6>Graduação Sistema de Informação</h6>
-                        <b><p>Faculdade Pitagoras</b><br>
-                        2018  até o momento - Cursando 4º Período </p>
-                        <h6>Graduação de Engenharia Civil</h6>
-                        <b><p>Faculdade Estácio de Sá</b><br>
-                        2017 a 2018 - Incompleto 2º Período </p>
-
-                      </div>
-             </div>
-                </div>
-              </div>
-<div  id="Contacts" style="background: lightblue" class=" navbar-fixed-bottom text-center">
-  <h6 style="color:lightslategray"><br> Celular: +55 (34) 98412-7589<br>E-mail: marlonrfjunior@outlook.com - marlonrfjunior@gmail.com<br>Rua Edson Bernardino Silva, 98 - Santa Rosa &nbsp Uberlândia-MG <br>CEP: 38401-774<br> </h6>
-</div>
+    </div>
+    <div id="Contacts" style="background: lightblue" class=" navbar-fixed-bottom text-center">
+        <h6 style="color:lightslategray"><br> Celular: +55 (34) 98412-7589<br>E-mail: marlonrfjunior@outlook.com - marlonrfjunior@gmail.com
+            <br>Rua Edson Bernardino Silva, 98 - Santa Rosa &nbsp Uberlândia-MG <br>CEP: 38401-774<br>
+        </h6>
+    </div>
 </body>
+
 </html>
